@@ -1,0 +1,18 @@
+{
+  "name": "cordova-plugin-appmetrica-push",
+  "version": "0.7.0",
+  "description": "AppMetrica Push cordova plugin",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-B-AGroup/cordova-plugin-appmetrica-push.git"
+  },
+  "author": "Sergey Chemyakin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R-B-AGroup/cordova-plugin-appmetrica-push/issues"
+  },
+  "homepage": "https://github.com/R-B-AGroup/cordova-plugin-appmetrica-push#readme"
+}

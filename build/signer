@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# instruction: Перед первым запуском выполнить chmod +x ./build/signer
+
+echo "START";
+# settings apps
+appname="mysticaktomb"; #app name
+password="dhkelfh";
+
+# settings signer
+nameJDK="liberica-jdk-1.8.0_232"; #name liberica
+username="kirillsamylin"; # user name PC mac
+keyname="$appname.keystore"; #key name
+mydir=`pwd`; #way app
+
+# Подписываем приложение
+function sign {
+    cd /Users/$username/Library/Android/sdk/build-tools/30.0.2/
+    jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $mydir/build/$keyname $mydir/platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk $appname"_alias"
+    ./zipalign -v 4 $mydir/platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk $mydir/build/$appname.apk
+    echo "FINISH";
+};
+
+# Проверяем есть уже подписаное приложение
+function checkApp {
+    if [ -e $mydir/build/$appname.apk ] 
+    then #если сущесвует то удаляем и потом подписываем
+    echo "$appname.apk exist, delete and create!";
+    rm ./build/$appname.apk
+    sign
+    else #иначе подписываем
+    echo "$appname.apk no exist, create!";
+    sign
+    fi
+};
+
+#Создаем ключ
+function createKey {
+    cd /Library/Java/JavaVirtualMachines/$nameJDK/Contents/Home/jre/bin
+    keytool -genkey -v -keystore $mydir/build/$keyname -alias $appname"_alias" -keyalg RSA -keysize 2048 -validity 10000 -storepass $password -keypass $password -dname "CN=, OU=, O=, L=, S=, C="
+    checkApp
+};
+
+#Проверяем есть ли созданый ключ
+function checkKey {
+    if [ -e $mydir/build/$keyname ] 
+    then #если ключ существует то проверяем на существование подписанного приложения
+    echo "Exist is key: true. Apps singer!";
+    checkApp
+    else #иначе создаем ключ
+    echo "Exist is key: false. Apps create!";
+    createKey
+    fi
+};
+
+cordova build android --release
+checkKey

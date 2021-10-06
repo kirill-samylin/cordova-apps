@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7db258c5-69e6-4757-b02d-585d28822f35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/com/appsflyer/cordova/plugin/AppsFlyerConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/appsflyer/cordova/plugin/AppsFlyerConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/appsflyer/cordova/plugin/AppsFlyerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/appsflyer/cordova/plugin/AppsFlyerPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../www/appsflyer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../www/appsflyer.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1ilO0Cl9RLErLtuJpCPNF53qPpf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7db258c5-69e6-4757-b02d-585d28822f35" name="Default Changelist" comment="" />
+      <created>1602478487393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602478487393</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602485216394">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.88.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602485216394" />
+    <state x="808" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1602478679288">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="808" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1440.88.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602478679288" />
+  </component>
+</project>

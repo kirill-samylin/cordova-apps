@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13297316-00b0-4e1e-a0a0-061db4dd05ac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="717af028-60e6-482d-a605-61d20b26d497" />
+  <component name="ProjectId" id="1gxAEaMePOyvbjFKXryK5M75kun" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ios" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13297316-00b0-4e1e-a0a0-061db4dd05ac" name="Default Changelist" comment="" />
+      <created>1599045758318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599045758318</updated>
+      <workItem from="1599045760133" duration="425000" />
+      <workItem from="1599060862678" duration="203000" />
+      <workItem from="1601882570827" duration="42000" />
+      <workItem from="1602157243676" duration="3080000" />
+      <workItem from="1602478363256" duration="9220000" />
+      <workItem from="1602760274956" duration="5009000" />
+      <workItem from="1602994340171" duration="1165000" />
+      <workItem from="1603083199481" duration="5666000" />
+      <workItem from="1603281782145" duration="477000" />
+      <workItem from="1603345981764" duration="5683000" />
+      <workItem from="1603356873442" duration="488000" />
+      <workItem from="1603690537852" duration="2215000" />
+      <workItem from="1603699574187" duration="1276000" />
+      <workItem from="1603708559676" duration="602000" />
+      <workItem from="1605506778635" duration="1899000" />
+      <workItem from="1605515934141" duration="5243000" />
+      <workItem from="1605592446378" duration="572000" />
+      <workItem from="1605594681042" duration="251000" />
+      <workItem from="1606032701747" duration="10845000" />
+      <workItem from="1606286954946" duration="7196000" />
+      <workItem from="1606326264506" duration="162000" />
+      <workItem from="1606327045678" duration="141000" />
+      <workItem from="1606744087931" duration="1071000" />
+      <workItem from="1606978421569" duration="4532000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="812" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1602491779772">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="812" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1440.88.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602491779772" />
+    <state x="448" y="121" key="SettingsEditor" timestamp="1605510103020">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="121" key="SettingsEditor/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1605510103020" />
+    <state x="667" y="295" width="664" height="490" key="find.popup" timestamp="1606980559225">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="667" y="295" width="664" height="490" key="find.popup/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606980559225" />
+  </component>
+</project>

@@ -1,0 +1,119 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@^1.3.4"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-appsflyer-sdk": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-appsflyer-sdk"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-inappbrowser": {
+    "source": {
+      "type": "local",
+      "path": "C:\\Users\\dev\\Documents\\cordova\\mobile_app_v6\\node_modules\\cordova-plugin-inappbrowser"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-webpack": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-webpack"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-androidx": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-androidx"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "yandex-appmetrica-plugin-cordova": {
+    "source": {
+      "type": "registry",
+      "id": "yandex-appmetrica-plugin-cordova"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-support-android-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-support-android-plugin@~1.0.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "branch-cordova-sdk": {
+    "source": {
+      "type": "registry",
+      "id": "branch-cordova-sdk@^4.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "onesignal-cordova-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "onesignal-cordova-plugin"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-app-version": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-app-version"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-idfa": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-idfa"
+    },
+    "is_top_level": true,
+    "variables": {
+      "ANDROID_PLAY_ADID_VERSION": "17.0.+"
+    }
+  },
+  "cordova-plugin-crypt-file": {
+    "source": {
+      "type": "local",
+      "path": "C:\\Users\\dev\\Documents\\cordova\\mobile_app_v18\\node_modules\\cordova-plugin-crypt-file"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-appmertica-push": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/R-B-AGroup/cordova-plugin-appmetrica-push"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-facebook4": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-facebook4"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_ID": "1789702304535740",
+      "APP_NAME": "Mystical-Tomb"
+    }
+  }
+}

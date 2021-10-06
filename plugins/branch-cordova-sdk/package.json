@@ -1,0 +1,104 @@
+{
+  "_from": "branch-cordova-sdk@^4.0.0",
+  "_id": "branch-cordova-sdk@4.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-6b3JoaIP1y75qeA54n2BkD9jz+frGYgsei8mCh+RGAX9LRXV/ce2wqXZtzh3hMVA+0lUtA4wbfFZKS7w0GKVtA==",
+  "_location": "/branch-cordova-sdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "branch-cordova-sdk@^4.0.0",
+    "name": "branch-cordova-sdk",
+    "escapedName": "branch-cordova-sdk",
+    "rawSpec": "^4.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^4.0.0"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/branch-cordova-sdk/-/branch-cordova-sdk-4.2.1.tgz",
+  "_shasum": "608e76c48b16832c45a433304687461a37a8f3bf",
+  "_spec": "branch-cordova-sdk@^4.0.0",
+  "_where": "C:\\Users\\dev\\Documents\\cordova\\mobile_app_v6",
+  "bugs": {
+    "url": "https://github.com/BranchMetrics/cordova-ionic-phonegap-branch-deep-linking/issues"
+  },
+  "bundleDependencies": false,
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "glob": "^7.1.4",
+    "mkpath": "^1.0.0",
+    "node-version-compare": "^1.0.1",
+    "plist": "^3.0.1",
+    "request": "^2.85.0",
+    "shelljs": "^0.8.3",
+    "xcode": "^2.0.0",
+    "xml2js": "^0.4.19"
+  },
+  "deprecated": false,
+  "description": "Branch Metrics Cordova SDK",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.7",
+    "prettier": "^2.0.5"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=8.0.0"
+    }
+  ],
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base/legacy"
+    ],
+    "rules": {
+      "no-console": 0,
+      "no-alert": 0,
+      "no-use-before-define": 0
+    },
+    "globals": {
+      "Promise": true,
+      "Branch": true
+    }
+  },
+  "homepage": "https://github.com/BranchMetrics/cordova-ionic-phonegap-branch-deep-linking",
+  "license": "MIT",
+  "lint-staged": {
+    "src/*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "main": "src/index.js",
+  "name": "branch-cordova-sdk",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BranchMetrics/cordova-ionic-phonegap-branch-deep-linking.git"
+  },
+  "scripts": {
+    "commitmsg": " echo 'validate commit messages'; commitlint -e $GIT_PARAMS",
+    "examples": "  echo 'generate examples';        node ./src/scripts/examples",
+    "lint": "      echo 'run code linter';          eslint --ext=js --fix ./src",
+    "precommit": " echo 'run prettier on commit';   lint-staged",
+    "prettier": "  echo 'run prettier';             prettier --write './{src,testbed,tests}/**/*.js'"
+  },
+  "version": "4.2.1"
+}

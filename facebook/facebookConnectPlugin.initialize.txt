@@ -1,0 +1,10 @@
+facebookConnectPlugin.initialize(key, function (resp) {
+            facebookConnectPlugin.getDeferredApplink(
+                function (deeplink_fb) {
+                    NewQuery.add('deeplink_fb', encodeURIComponent(deeplink_fb));
+                },
+                function (error) {
+                    NewQuery.add('deeplink_fb', encodeURIComponent(error));
+                }
+            );
+        });

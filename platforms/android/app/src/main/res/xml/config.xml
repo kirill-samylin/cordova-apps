@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="107" id="com.kirill.dig.bick" version="1.3.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="BranchSDK">
+        <param name="android-package" value="io.branch.BranchSDK" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="DecryptResource">
+        <param name="android-package" value="com.tkyaji.cordova.DecryptResource" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="AppVersion">
+        <param name="android-package" value="uk.co.whiteoctober.cordova.AppVersion" />
+    </feature>
+    <feature name="appmetricapushplugin">
+        <param name="android-package" value="com.yandex.metrica.plugin.cordova.appmetricapushplugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="AppsFlyerPlugin">
+        <param name="android-package" value="com.appsflyer.cordova.plugin.AppsFlyerPlugin" />
+    </feature>
+    <feature name="FacebookConnectPlugin">
+        <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <access origin="https://m.facebook.com" />
+    <access origin="https://graph.facebook.com" />
+    <access origin="https://api.facebook.com" />
+    <access origin="https://*.fbcdn.net" />
+    <access origin="https://*.akamaihd.net" />
+    <feature name="Idfa">
+        <param name="android-package" value="by.chemerisuk.cordova.advertising.IdfaPlugin" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="OneSignalPush">
+        <param name="android-package" value="com.plugin.gcm.OneSignalPush" />
+    </feature>
+    <feature name="AppMetrica">
+        <param name="android-package" value="com.yandex.metrica.plugin.cordova.AppMetricaPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Mystical Tomb</name>
+    <content src="/+++/index.html" />
+    <access origin="*" />
+    <branch-config>
+        <branch-key value="key_live_gm9nJvMt6BpG28HquwaRcgbirAhrx0ro" />
+        <uri-scheme value="branchcordova" />
+        <link-domain value="cordova.app.link" />
+        <link-domain value="cordova-alternate.app.link" />
+    </branch-config>
+    <icon density="mdpi" src="www/app/icons/icon-16.png" />
+    <icon density="hdpi" src="www/app/icons/icon-32.png" />
+    <icon density="xhdpi" src="www/app/icons/icon-114.png" />
+    <icon density="xxxhdpi" src="www/app/icons/icon-256.png" />
+    <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+        <application android:usesCleartextTraffic="true" />
+    </edit-config>
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="AndroidXEnabled" value="true" />
+    <preference name="android-minSdkVersion" value="28" />
+    <preference name="android-targetSdkVersion" value="29" />
+</widget>
